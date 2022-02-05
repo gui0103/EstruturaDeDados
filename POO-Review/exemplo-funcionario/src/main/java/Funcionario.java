@@ -20,7 +20,7 @@ public abstract class Funcionario {
 
     @Override
     public String toString() {
-        return  "\nCPF = " + CPF +
-                "\nNome = " + nome ;
+        return "\nCPF = " + CPF +
+                "\nNome = " + nome;
     }
 }
