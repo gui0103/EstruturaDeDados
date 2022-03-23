@@ -3,115 +3,115 @@ public class Teste {
     public static void main(String[] args) {
         int indRetornado;
 
-        ListaEstatica lista = new ListaEstatica(5);
+        ListaEstatica listaEstatica = new ListaEstatica(5);
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        lista.adiciona(10);
-        lista.adiciona(20);
-        lista.adiciona(30);
+        listaEstatica.adiciona(5);
+        listaEstatica.adiciona(10);
+        listaEstatica.adiciona(15);
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        lista.adiciona(40);
-        lista.adiciona(50);
+        listaEstatica.adiciona(20);
+        listaEstatica.adiciona(25);
         System.out.println("\nTentando adicionar o sexto elemento");
-        lista.adiciona(60);
+        listaEstatica.adiciona(30);
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        System.out.println("\nBuscando o elemento 30");
-        indRetornado = lista.busca(30);
+        System.out.println("\nBuscando o elemento 5");
+        indRetornado = listaEstatica.busca(5);
         if (indRetornado == -1) {
-            System.out.println("Elemento 30 não foi encontrado");
+            System.out.println("\nElemento 5 não foi encontrado");
         }
         else {
-            System.out.println("Elemento 30 encontrado no índice " + indRetornado);
+            System.out.println("\nElemento 5 encontrado no índice " + indRetornado);
         }
 
-        System.out.println("\nBuscando o elemento 100");
-        indRetornado = lista.busca(100);
+        System.out.println("\nBuscando o elemento 20");
+        indRetornado = listaEstatica.busca(20);
         if (indRetornado == -1) {
-            System.out.println("Elemento 100 não foi encontrado");
+            System.out.println("\nElemento 20 não foi encontrado");
         }
         else {
-            System.out.println("Elemento 100 encontrado no índice " + indRetornado);
+            System.out.println("\nElemento 20 encontrado no índice " + indRetornado);
         }
 
-        System.out.println("\nRemovendo o elemento do índice 4");
-        if (lista.removePeloIndice(4)) {
-            System.out.println("Removido elemento do índice 4");
+        System.out.println("\nRemovendo o elemento do índice 2");
+        if (listaEstatica.removePeloIndice(2)) {
+            System.out.println("\nRemovido elemento do índice 2");
         }
         else {
             System.out.println("Remoção inválida");
         }
 
-        lista.exibe();
+        listaEstatica.exibe();
 
         System.out.println("\nRemovendo o elemento do índice 0");
-        if (lista.removePeloIndice(0)) {
-            System.out.println("Removido elemento do índice 0");
+        if (listaEstatica.removePeloIndice(0)) {
+            System.out.println("\nRemovido elemento do índice 0");
         }
         else {
             System.out.println("Remoção inválida");
         }
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        System.out.println("\nRemovendo o elemento do índice 7");
-        if (lista.removePeloIndice(7)) {
-            System.out.println("Removido elemento do índice 7");
+        System.out.println("\nRemovendo o elemento do índice 10");
+        if (listaEstatica.removePeloIndice(10)) {
+            System.out.println("\nRemovido elemento do índice 10");
         }
         else {
-            System.out.println("Remoção inválida");
+            System.out.println("\nRemoção inválida");
         }
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        System.out.println("\nRemovendo o elemento 30");
-        if (lista.removeElemento(30)) {
-            System.out.println("Removido elemento 30");
-        }
-        else {
-            System.out.println("Remoção inválida");
-        }
-
-        lista.exibe();
-
-        System.out.println("\nRemovendo o elemento 55");
-        if (lista.removeElemento(55)) {
-            System.out.println("Removido elemento 55");
+        System.out.println("\nRemovendo o elemento 5");
+        if (listaEstatica.removeElemento(5)) {
+            System.out.println("\nRemovido elemento 5");
         }
         else {
-            System.out.println("Remoção inválida");
+            System.out.println("\nRemoção inválida");
         }
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        lista.subistitui(1, 25);
+        System.out.println("\nRemovendo o elemento 25");
+        if (listaEstatica.removeElemento(25)) {
+            System.out.println("\nRemovido elemento 25");
+        }
+        else {
+            System.out.println("\nRemoção inválida");
+        }
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        lista.subistitui(20, 25);
+        listaEstatica.subistitui(30, 50);
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        System.out.println("\nNumero de vezes que o numero escolhido aparece na lista:");
-        System.out.println( lista.contaOcorrenciaas(25));
+        listaEstatica.subistitui(20, 80);
 
-        lista.adicionaInicio(2);
+        listaEstatica.exibe();
 
-        lista.exibe();
+        System.out.println("\nNumero de vezes que o numero escolhido aparece na lista: ");
+        System.out.println( listaEstatica.contaOcorrenciaas(25));
 
-        lista.adicionaInicio(1);
+        listaEstatica.adicionaInicio(172);
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        lista.adicionaInicio(34);
+        listaEstatica.adicionaInicio(4);
 
-        lista.exibe();
+        listaEstatica.exibe();
 
-        lista.adicionaInicio(10);
+        listaEstatica.adicionaInicio(54);
+
+        listaEstatica.exibe();
+
+        listaEstatica.adicionaInicio(10);
 
 
     }
