@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="exercicio-aluno" />
+        <module name="treino-ac2-exercicio-lista-filmes" />
+        <module name="treino-ac2" />
       </profile>
     </annotationProcessing>
   </component>
