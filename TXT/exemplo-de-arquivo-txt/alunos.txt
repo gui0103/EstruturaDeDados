@@ -1,0 +1,30 @@
+00NOTA2022120-04-2022 19:23:071
+02ADS  01211050Gui                                               Estrutura de Dados                      09,00005
+02ADS  01211050Gui                                               Progrmação Web                          08,50005
+02ADS  01211048Flavio                                            Progrmação Web                          08,50000
+02ADS  01211048Flavio                                            Estrutura de Dados                      09,00000
+010000000004
+00NOTA2022120-04-2022 19:32:031
+02ADS  01211050Gui                                               Estrutura de Dados                      09,00005
+02ADS  01211050Gui                                               Progrmação Web                          08,50005
+02ADS  01211048Flavio                                            Progrmação Web                          08,50000
+02ADS  01211048Flavio                                            Estrutura de Dados                      09,00000
+010000000004
+00NOTA2022120-04-2022 19:32:321
+02ADS  01211050Gui                                               Estrutura de Dados                      09,00005
+02ADS  01211050Gui                                               Progrmação Web                          08,50005
+02ADS  01211048Flavio                                            Progrmação Web                          08,50000
+02ADS  01211048Flavio                                            Estrutura de Dados                      09,00000
+010000000004
+00NOTA2022120-04-2022 19:33:211
+02ADS  01211050Gui                                               Estrutura de Dados                      09,00005
+02ADS  01211050Gui                                               Progrmação Web                          08,50005
+02ADS  01211048Flavio                                            Progrmação Web                          08,50000
+02ADS  01211048Flavio                                            Estrutura de Dados                      09,00000
+010000000004
+00NOTA2022120-04-2022 19:41:341
+02ADS  01211050Gui                                               Estrutura de Dados                      09,00005
+02ADS  01211050Gui                                               Progrmação Web                          08,50005
+02ADS  01211048Flavio                                            Progrmação Web                          08,50000
+02ADS  01211048Flavio                                            Estrutura de Dados                      09,00000
+010000000004
